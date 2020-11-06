@@ -1,0 +1,11 @@
+/**
+ * Basic typography style for copy text
+ */
+
+.header_heading {
+    @include fontMixin($main-font, $text-color, 72px, 600, 1.8);
+}
+
+.header_Pragraph {
+    @include fontMixin($main-font, $text-color, 40px, 40, 1.5);
+}
