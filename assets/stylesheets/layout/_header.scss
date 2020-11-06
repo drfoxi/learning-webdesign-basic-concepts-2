@@ -16,3 +16,35 @@
             text-align: center;
             width: 85%;
         }
+        
+        ///------menu------
+        .container_menu {
+            direction: ltr;
+            display: flex;
+        }
+        
+        .menu_link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
+            background: $color-black;
+            padding: 20px;
+        }
+        
+        .menu_navigationbar-logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 10;
+            background: $color-dark;
+        }
+        
+        .menu-shoping-cart {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
+            background: $color-yellow;
+            padding: 20px;
+        }

@@ -76,6 +76,18 @@
   line-height: 1.5;
 }
 
+.menu_link {
+  font-size: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu-shoping-cart {
+  font-size: 50px;
+  color: white;
+  text-decoration: none;
+}
+
 #header {
   width: 100%;
   height: 100vh;
@@ -97,5 +109,62 @@
 .container_hader {
   text-align: center;
   width: 85%;
+}
+
+.container_menu {
+  direction: ltr;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background: black;
+  padding: 20px;
+}
+
+.menu_navigationbar-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 10;
+      -ms-flex: 10;
+          flex: 10;
+  background: #151515;
+}
+
+.menu-shoping-cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background: #fdbc2c;
+  padding: 20px;
 }
 /*# sourceMappingURL=main.css.map */
