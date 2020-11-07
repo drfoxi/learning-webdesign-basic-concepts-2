@@ -7,7 +7,7 @@
 }
 
 .header_Pragraph {
-    @include fontMixin($main-font, $text-color, 40px, 40, 1.5);
+    @include fontMixin($main-font, $text-color, 40px, 400, 1.5);
 }
 
 .menu_link {
@@ -20,4 +20,8 @@
     font-size: 50px;
     color: $color-white;
     text-decoration: none;
+}
+
+#my-menu {
+    @include fontMixin($main-font, $text-color, 20px, 400, 1.5);
 }

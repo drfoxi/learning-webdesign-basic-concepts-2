@@ -48,3 +48,11 @@
             background: $color-yellow;
             padding: 20px;
         }
+        
+        #my-menu {
+            direction: rtl;
+            text-align: center;
+            li:hover {
+                background: $color-yellow;
+            }
+        }
