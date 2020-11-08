@@ -7,7 +7,29 @@
 }
 
 .header_Pragraph {
-    @include fontMixin($main-font, $text-color, 40px, 400, 1.5);
+    @include fontMixin($main-font, $text-color, 30px, 400, 1.8);
+}
+
+.continer_info_text {
+    h2 {
+        @include fontMixin($main-font, $color-yellow, 30px, 600, 1.8);
+    }
+    p {
+        @include fontMixin($main-font, $text-color, 15px, 400, 1.8);
+    }
+}
+
+.continer_info_list {
+    h3 {
+        @include fontMixin($main-font, $color-yellow, 20px, 600, 1.8);
+    }
+    p {
+        @include fontMixin($main-font, $text-color, 15px, 400, 1.8);
+    }
+    i {
+        font-size: 60px;
+        color: $color-orange;
+    }
 }
 
 .menu_link {
