@@ -3,28 +3,28 @@
  */
 
 .header_heading {
-    @include fontMixin($main-font, $text-color, 72px, 600, 1.8);
+    @include fontMixin($main-font, $text-color, 72px, 600, 1.8, rtl);
 }
 
 .header_Pragraph {
-    @include fontMixin($main-font, $text-color, 30px, 400, 1.8);
+    @include fontMixin($main-font, $text-color, 30px, 400, 1.8, rtl);
 }
 
 .continer_info_text {
     h2 {
-        @include fontMixin($main-font, $color-yellow, 30px, 600, 1.8);
+        @include fontMixin($main-font, $color-yellow, 30px, 600, 1.8, rtl);
     }
     p {
-        @include fontMixin($main-font, $text-color, 15px, 400, 1.8);
+        @include fontMixin($main-font, $text-color, 15px, 400, 1.8, rtl);
     }
 }
 
 .continer_info_list {
     h3 {
-        @include fontMixin($main-font, $color-yellow, 20px, 600, 1.8);
+        @include fontMixin($main-font, $color-yellow, 20px, 600, 1.8, rtl);
     }
     p {
-        @include fontMixin($main-font, $text-color, 15px, 400, 1.8);
+        @include fontMixin($main-font, $text-color, 15px, 400, 1.8, rtl);
     }
     i {
         font-size: 60px;
@@ -45,5 +45,29 @@
 }
 
 #my-menu {
-    @include fontMixin($main-font, $text-color, 20px, 400, 1.5);
+    @include fontMixin($main-font, $text-color, 20px, 400, 1.5, rtl);
+}
+
+
+.slide_information{
+    h2{
+        @include fontMixin($main-font, $text-color, 62px, 700, 1.8);
+    }
+
+    h3{
+        @include fontMixin($main-font, $color-yellow, 40px, 400, 1.5);
+    }
+
+    p{
+        @include fontMixin($main-font, $text-color, 20px, 400, 1.5);
+    }
+
+    a{
+        @include fontMixin($main-font, $text-color, 20px, 400, 1.5);
+        text-decoration: none;
+        padding: 15px 35px;
+        border: 3px solid $color-yellow;
+        display: inline-block;
+        margin-top: 3rem;
+    }
 }

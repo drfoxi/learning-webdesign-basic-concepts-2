@@ -6,7 +6,6 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  direction: rtl;
 }
 
 body {
@@ -71,6 +70,7 @@ body {
   font-size: 72px;
   font-weight: 600;
   line-height: 1.8;
+  direction: rtl;
 }
 
 .header_Pragraph {
@@ -79,6 +79,7 @@ body {
   font-size: 30px;
   font-weight: 400;
   line-height: 1.8;
+  direction: rtl;
 }
 
 .continer_info_text h2 {
@@ -87,6 +88,7 @@ body {
   font-size: 30px;
   font-weight: 600;
   line-height: 1.8;
+  direction: rtl;
 }
 
 .continer_info_text p {
@@ -95,6 +97,7 @@ body {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.8;
+  direction: rtl;
 }
 
 .continer_info_list h3 {
@@ -103,6 +106,7 @@ body {
   font-size: 20px;
   font-weight: 600;
   line-height: 1.8;
+  direction: rtl;
 }
 
 .continer_info_list p {
@@ -111,6 +115,7 @@ body {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.8;
+  direction: rtl;
 }
 
 .continer_info_list i {
@@ -136,6 +141,48 @@ body {
   font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
+  direction: rtl;
+}
+
+.slide_information h2 {
+  font-family: vazir;
+  color: whitesmoke;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 1.8;
+  direction: rtl;
+}
+
+.slide_information h3 {
+  font-family: vazir;
+  color: #fdbc2c;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.5;
+  direction: rtl;
+}
+
+.slide_information p {
+  font-family: vazir;
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  direction: rtl;
+}
+
+.slide_information a {
+  font-family: vazir;
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  direction: rtl;
+  text-decoration: none;
+  padding: 15px 35px;
+  border: 3px solid #fdbc2c;
+  display: inline-block;
+  margin-top: 3rem;
 }
 
 #header {
@@ -253,5 +300,52 @@ body {
 
 .continer_info_list_icon-info li {
   padding: 20px;
+}
+
+#section_slider {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 52, 2, 0.8)), to(rgba(255, 52, 2, 0.8))), url(../../../assets/imgs/pattern-2.png);
+  background: linear-gradient(rgba(255, 52, 2, 0.8), rgba(255, 52, 2, 0.8)), url(../../../assets/imgs/pattern-2.png);
+  margin-top: 9rem;
+  position: relative;
+  padding-bottom: 25rem;
+}
+
+#section_slider .slider {
+  position: absolute;
+  width: 100%;
+  top: -100px;
+}
+
+#section_slider .slider .slide {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#section_slider .slider .slide .slide_image {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+#section_slider .slider .slide .slide_information {
+  text-align: center;
+  margin-top: 8rem;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
 }
 /*# sourceMappingURL=main.css.map */
