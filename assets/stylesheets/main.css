@@ -334,9 +334,9 @@ body {
 #section_slider .slider .slide .slide_image {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
 }
 
 #section_slider .slider .slide .slide_information {
@@ -344,8 +344,8 @@ body {
   margin-top: 8rem;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
 }
 /*# sourceMappingURL=main.css.map */
