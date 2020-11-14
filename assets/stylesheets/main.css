@@ -185,6 +185,69 @@ body {
   margin-top: 3rem;
 }
 
+#section_acordeon .acordeon_title h2 {
+  font-family: vazir;
+  color: #fdbc2c;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.8;
+  direction: rtl;
+}
+
+#section_acordeon .acordeon_title p {
+  font-family: vazir;
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.8;
+  direction: rtl;
+}
+
+#section_acordeon .acordeon_menu ol {
+  font-family: "Fredericka the Great", cursive;
+  color: #D94F2B;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 1.8;
+  direction: rtl;
+}
+
+#section_acordeon .acordeon_menu .acordeon_menu_ol_view span.title {
+  font-family: vazir;
+  color: #fdbc2c;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.8;
+  direction: rtl;
+}
+
+#section_acordeon .acordeon_menu .acordeon_menu_ol_view span.icon {
+  font-family: "Fredericka the Great", cursive;
+  color: whitesmoke;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 1.8;
+  direction: rtl;
+}
+
+#section_acordeon .acordeon_menu .acordeon_menu_ol_desc p {
+  font-family: vazir;
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.8;
+  direction: rtl;
+}
+
+#section_acordeon .acordeon_menu .acordeon_menu_ol_desc li {
+  font-family: vazir;
+  color: #D94F2B;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.8;
+  direction: rtl;
+}
+
 #header {
   width: 100%;
   height: 100vh;
@@ -311,7 +374,7 @@ body {
   background: linear-gradient(rgba(255, 52, 2, 0.8), rgba(255, 52, 2, 0.8)), url(../../../assets/imgs/pattern-2.png);
   margin-top: 9rem;
   position: relative;
-  padding-bottom: 25rem;
+  height: 450px;
 }
 
 #section_slider .slider {
@@ -325,18 +388,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
 }
 
 #section_slider .slider .slide .slide_image {
+  width: 100%;
+  max-width: 750px;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
 }
 
 #section_slider .slider .slide .slide_information {
@@ -344,8 +402,69 @@ body {
   margin-top: 8rem;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
+}
+
+#section_acordeon {
+  width: 100%;
+  margin-top: 16rem;
+}
+
+#section_acordeon .container {
+  direction: rtl;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#section_acordeon .container .acordeon_title {
+  text-align: center;
+}
+
+#section_acordeon .container .acordeon_title h2 {
+  margin-bottom: 3rem;
+}
+
+#section_acordeon .container .acordeon_menu ol {
+  margin-top: 3rem;
+}
+
+#section_acordeon .container .acordeon_menu ol > li {
+  border-top: solid 0.5px #383838;
+}
+
+#section_acordeon .container .acordeon_menu ol > li .acordeon_menu_ol_view {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#section_acordeon .container .acordeon_menu ol > li .acordeon_menu_ol_view span.title {
+  margin-right: 20px;
+}
+
+#section_acordeon .container .acordeon_menu ol > li .acordeon_menu_ol_view span.icon:hover {
+  cursor: pointer;
+}
+
+#section_acordeon .container .acordeon_menu ol > li .acordeon_menu_ol_desc {
+  display: none;
+}
+
+#section_acordeon .container .acordeon_menu ol > li .acordeon_menu_ol_desc .desc-wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#section_acordeon .container .acordeon_menu ol > li .acordeon_menu_ol_desc .desc-wraper .desc_img {
+  border: solid 3px #D94F2B;
+  padding: 1rem;
+  margin: 3rem;
+}
+
+#section_acordeon .container .acordeon_menu ol > li .acordeon_menu_ol_desc .desc-wraper .desc_text {
+  margin-top: 3rem;
 }
 /*# sourceMappingURL=main.css.map */

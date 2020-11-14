@@ -67,3 +67,35 @@
         margin-top: 3rem;
     }
 }
+
+#section_acordeon {
+    .acordeon_title {
+        h2 {
+            @include fontMixin($main-font, $color-yellow, 50px, 600, 1.8, rtl);
+        }
+        p {
+            @include fontMixin($main-font, $text-color, 15px, 400, 1.8, rtl);
+        }
+    }
+    .acordeon_menu {
+        ol {
+            @include fontMixin($icon-font, $color-orange, 60px, 400, 1.8, rtl);
+        }
+        .acordeon_menu_ol_view {
+            span.title {
+                @include fontMixin($main-font, $color-yellow, 40px, 400, 1.8, rtl);
+            }
+            span.icon {
+                @include fontMixin($icon-font, $text-color, 72px, 400, 1.8, rtl);
+            }
+        }
+        .acordeon_menu_ol_desc {
+            p {
+                @include fontMixin($main-font, $text-color, 15px, 400, 1.8, rtl);
+            }
+            li {
+                @include fontMixin($main-font, $color-orange, 15px, 400, 1.8, rtl);
+            }
+        }
+    }
+}

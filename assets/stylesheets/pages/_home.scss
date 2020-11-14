@@ -31,7 +31,7 @@
     background: linear-gradient(rgba(255, 52, 2, 0.8), rgba(255, 52, 2, 0.8)), url(../../../assets/imgs/pattern-2.png);
     margin-top: 9rem;
     position: relative;
-    padding-bottom: 25rem;
+    height: 450px;
     .slider {
         position: absolute;
         width: 100%;
@@ -39,16 +39,63 @@
         .slide {
             width: 100%;
             display: flex;
-            flex-direction: row;
             .slide_image {
+                width: 100%;
+                max-width: 750px;
                 flex-basis: 50%;
-                order: 2;
             }
             .slide_information {
                 text-align: center;
                 margin-top: 8rem;
                 flex-basis: 50%;
-                order: 1;
+            }
+        }
+    }
+}
+
+#section_acordeon {
+    width: 100%;
+    margin-top: 16rem;
+    .container {
+        direction: rtl;
+        width: 80%;
+        margin: 0 auto;
+        .acordeon_title {
+            text-align: center;
+            h2 {
+                margin-bottom: 3rem;
+            }
+        }
+        .acordeon_menu {
+            ol {
+                margin-top: 3rem;
+                &>li {
+                    border-top: solid 0.5px $color-acordeon-border;
+                    .acordeon_menu_ol_view {
+                        display: flex;
+                        justify-content: space-between;
+                        span.title {
+                            margin-right: 20px;
+                        }
+                        span.icon:hover {
+                            cursor: pointer;
+                        }
+                    }
+                    .acordeon_menu_ol_desc {
+                        display: none;
+                        .desc-wraper {
+                            display: flex;
+                            .desc_img {
+                                border: solid 3px $color-orange;
+                                padding: 1rem;
+                                margin: 3rem;
+                            }
+                            .desc_text {
+                                margin-top: 3rem;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
